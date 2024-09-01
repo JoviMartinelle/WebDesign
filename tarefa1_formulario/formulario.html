@@ -13,10 +13,67 @@
     </h1>
     <br>
     <form action="https://www.w3schools.com/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
+        <h1>Defina a data</h1><br>
+        <label for="date">Data:</label><br>
+        <input type="date" name="data" id="data"><br><br>
+
+        <h1>Dados de acesso</h1><br>
+        <label for="usuario">Usuário:</label><br>
+        <input type="text" id="usuario" name="usuario"><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha" id="senha"><br><br>
+
+        <h1>Dados pessoais</h1><br>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" name="endereco" id="endereco"><br><br>
+
+        <label for="numero">Número:</label><br>
+        <input type="number" name="numero" id="numero"><br><br>
+
+        <label for="complemento">Complemento:</label><br>
+        <input type="text" name="complemento" id="complemento"><br><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <input list="cidade" name="cidade">
+        <datalist id="cidade">
+            <option value="Sorocaba">
+            <option value="Votorantim">
+            <option value="Araçoiaba da Serra">
+            <option value="Salto de Pirapora">
+            <option value="Pilar do Sul">
+        </datalist><br><br>
+
+        <label for="estado">Estado:</label><br>
+        <select id="estado" name="estado">
+            <option value="São Paulo">São Paulo (SP)</option>
+            <option value="Minas Gerais">Minas Gerais (MG)</option>
+            <option value="Espírito Santo">Espírito Santo (ES)</option>
+            <option value="Rio de Janeiro">Rio de Janeiro (RJ)</option>
+            </select><br><br>
+
+            <label for="cep">CEP:</label><br>
+            <input type="number" name="cep" id="cep"><br><br>
+
+            <h1>Gênero</h1><br>
+            <input type="radio" id="masculino" name="masculino" value="masculino" checked>
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="feminino" name="feminino" value="feminino">
+            <label for="">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+    
+
+
+
+
+
+
+
+
         <input type="submit" value="Enviar">
     </form>
 </body>
