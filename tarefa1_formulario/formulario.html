@@ -9,7 +9,7 @@
 
 <body>
     <h1>
-        Formulário
+        Formulário - João Vítor Martinelle
     </h1>
     <br>
     <form action="https://www.w3schools.com/action_page.php">
@@ -53,28 +53,42 @@
             <option value="Minas Gerais">Minas Gerais (MG)</option>
             <option value="Espírito Santo">Espírito Santo (ES)</option>
             <option value="Rio de Janeiro">Rio de Janeiro (RJ)</option>
-            </select><br><br>
+        </select><br><br>
 
-            <label for="cep">CEP:</label><br>
-            <input type="number" name="cep" id="cep"><br><br>
+        <label for="cep">CEP:</label><br>
+        <input type="number" name="cep" id="cep"><br><br>
 
-            <h1>Gênero</h1><br>
-            <input type="radio" id="masculino" name="masculino" value="masculino" checked>
-            <label for="masculino">Masculino</label><br>
-            <input type="radio" id="feminino" name="feminino" value="feminino">
-            <label for="">CSS</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">JavaScript</label>
-    
+        <h1>Gênero</h1>
+        <input type="radio" id="masculino" name="genero" value="masculino" checked>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="">Feminino</label><br>
+        <input type="radio" id="prefironaoresponder" name="genero" value="prefironaoresponder">
+        <label for="prefironaoresponder">Prefiro não responder</label>
+        <br>
 
+        <h1>Selecione seu(s) curso(s)</h1><br>
+        <input type="checkbox" id="ADS" name="curso" value="ADS">
+        <label for="ADS"> ADS</label><br>
+        <input type="checkbox" id="Jogos" name="curso" value="Jogos">
+        <label for="Jogos"> Jogos</label><br>
+        <input type="checkbox" id="Gestão de TI" name="curso" value="Gestão de TI">
+        <label for="Gestão de TI"> Gestão de TI</label><br>
+        <input type="checkbox" id="Banco de Dados" name="curso" value="Banco de Dados">
+        <label for="Banco de Dados"> Banco de Dados</label><br>
+        <br>
 
-
-
-
-
-
+        <h1>Modelo de estudo</h1><br>
+        <input type="radio" id="Presencial" name="modelo" value="Presencial" checked>
+        <label for="Presencial">Presencial</label><br>
+        <input type="radio" id="EAD" name="modelo" value="EAD" checked>
+        <label for="EAD">EAD</label><br>
+        <input type="radio" id="Semi Presencial" name="modelo" value="Semi Presencial" checked>
+        <label for="Semi Presencial">Semi Presencial</label><br>
+        <br>
 
         <input type="submit" value="Enviar">
+        <br>
     </form>
 </body>
 
