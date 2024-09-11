@@ -17,13 +17,6 @@ body {
     border: 7px solid rgb(6, 199, 247);
 }
 
-/* Estilo para telas maiores (PC) */
-@media (min-width: 768px) {
-    .container {
-        padding: 0px 50px;
-    }
-}
-
 a:hover {
     color: rgb(6, 199, 247);
 }
@@ -37,7 +30,7 @@ a {
 }
 
 .container {
-    padding: 0px 20px;
+    padding: 0px 50px;
 }
 
 .etapas {
@@ -61,7 +54,29 @@ ul {
     background-color: rgb(6, 199, 247);
 }
 
-/* Estilo para telas pequenas (celular) */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9; 
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0px 50px;
+    }
+}
+
+
 @media (max-width: 768px) {
     ul {
         flex-direction: column;
