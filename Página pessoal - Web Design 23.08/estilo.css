@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -59,14 +59,14 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: cover; 
 }
 
 
 iframe {
     width: 100%;
-    max-width: 100%;
     height: auto;
-    aspect-ratio: 16/9; 
+    max-width: 100%;
 }
 
 
@@ -74,9 +74,13 @@ iframe {
     .container {
         padding: 0px 50px;
     }
+
+    iframe {
+        height: 500px; 
+    }
 }
 
-
+/* Estilo para telas pequenas (celular) */
 @media (max-width: 768px) {
     ul {
         flex-direction: column;
@@ -90,5 +94,9 @@ iframe {
 
     .container {
         padding: 0px 20px;
+    }
+
+    iframe {
+        height: 200px; 
     }
 }
