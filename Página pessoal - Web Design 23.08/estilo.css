@@ -34,9 +34,22 @@ a{
 }
 
 .etapas{
-    background-color:rgb(6, 199, 247);;
+    background-color:rgb(6, 199, 247);
 }
 
 .texto{
     text-align: justify;
+}
+
+#meio{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(6, 199, 247);
 }
