@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -18,89 +18,38 @@ body {
 }
 
 a:hover {
-    color: rgb(6, 199, 247);
+    color: rgb(6, 199, 247);;
 }
 
-a {
+a{
     color: rgb(255, 255, 255);
 }
 
-.center {
+.center{
     text-align: center;
 }
 
-.container {
+.container{
     padding: 0px 50px;
 }
 
-.etapas {
-    background-color: rgb(6, 199, 247);
+.etapas{
+    background-color:rgb(6, 199, 247);
 }
 
-.texto {
+.texto{
     text-align: justify;
 }
 
-#meio {
+#meio{
     text-align: center;
 }
 
-ul {
+ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
     background-color: rgb(6, 199, 247);
-}
-
-/*A partir daqui, pedi ajuda ao CHATGPT para fazer com que meu site também funcione em Smartphones */
-/* Responsividade para imagens */
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    margin: 0 auto; /* Centraliza a imagem horizontalmente */
-}
-
-/* Responsividade para vídeos (iframe) */
-iframe {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto; /* Centraliza o iframe horizontalmente */
-}
-
-/* Estilo para telas maiores (PC) */
-@media (min-width: 768px) {
-    .container {
-        padding: 0px 50px;
-    }
-
-    iframe {
-        height: 500px; /* Defina uma altura específica para telas maiores */
-    }
-}
-
-/* Estilo para telas pequenas (celular) */
-@media (max-width: 768px) {
-    ul {
-        flex-direction: column;
-    }
-
-    #perfil {
-        width: 150px;
-        height: 150px;
-        border: 5px solid rgb(6, 199, 247);
-    }
-
-    .container {
-        padding: 0px 20px;
-    }
-
-    iframe {
-        height: 200px; /* Defina uma altura menor para vídeos em dispositivos móveis */
-    }
 }
