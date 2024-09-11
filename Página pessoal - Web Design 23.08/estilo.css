@@ -17,39 +17,63 @@ body {
     border: 7px solid rgb(6, 199, 247);
 }
 
-a:hover {
-    color: rgb(6, 199, 247);;
+/* Estilo para telas maiores (PC) */
+@media (min-width: 768px) {
+    .container {
+        padding: 0px 50px;
+    }
 }
 
-a{
+a:hover {
+    color: rgb(6, 199, 247);
+}
+
+a {
     color: rgb(255, 255, 255);
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.container{
-    padding: 0px 50px;
+.container {
+    padding: 0px 20px;
 }
 
-.etapas{
-    background-color:rgb(6, 199, 247);
+.etapas {
+    background-color: rgb(6, 199, 247);
 }
 
-.texto{
+.texto {
     text-align: justify;
 }
 
-#meio{
+#meio {
     text-align: center;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
     padding: 16px;
     background-color: rgb(6, 199, 247);
+}
+
+/* Estilo para telas pequenas (celular) */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+
+    #perfil {
+        width: 150px;
+        height: 150px;
+        border: 5px solid rgb(6, 199, 247);
+    }
+
+    .container {
+        padding: 0px 20px;
+    }
 }
