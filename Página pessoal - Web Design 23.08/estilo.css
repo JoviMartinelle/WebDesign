@@ -54,29 +54,33 @@ ul {
     background-color: rgb(6, 199, 247);
 }
 
-
+/*A partir daqui, pedi ajuda ao CHATGPT para fazer com que meu site também funcione em Smartphones */
+/* Responsividade para imagens */
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    object-fit: cover; 
+    object-fit: cover;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
 
-
+/* Responsividade para vídeos (iframe) */
 iframe {
     width: 100%;
     height: auto;
     max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Centraliza o iframe horizontalmente */
 }
 
-
+/* Estilo para telas maiores (PC) */
 @media (min-width: 768px) {
     .container {
         padding: 0px 50px;
     }
 
     iframe {
-        height: 500px; 
+        height: 500px; /* Defina uma altura específica para telas maiores */
     }
 }
 
@@ -97,6 +101,6 @@ iframe {
     }
 
     iframe {
-        height: 200px; 
+        height: 200px; /* Defina uma altura menor para vídeos em dispositivos móveis */
     }
 }
