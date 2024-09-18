@@ -1,0 +1,191 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+main {
+height: 97vh;
+background-color: lightblue;
+
+}
+
+.fase1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fase2{
+    display: flex;
+    justify-content: center;
+}
+
+.fase3{
+    display: flex;
+justify-content: space-around;
+}
+
+.fase4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fase5{
+    display: flex;
+    align-items: flex-end;
+}
+
+.fase6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fase7{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.fase8{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fase9{
+    display: flex;
+    flex-direction: column;
+}
+
+.fase10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.fase11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.fase12{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+.fase13{
+    display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+}
+
+.fase14{
+    display: flex;
+}
+
+#yellow1{
+    order: 1;
+}
+
+.fase15{
+    display: flex;
+}
+
+#red1{
+    order: -3;
+}
+
+.fase16{
+    display: flex;
+    align-items: flex-start;
+}
+
+#yellow2{
+    align-self: flex-end;
+}
+
+.fase17{
+    display: flex;
+    align-items: flex-start;
+}
+
+#yellow3{
+    order: 3;
+    align-self: flex-end;
+}
+
+.fase18{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+.fase19{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fase20{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fase21{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
+
+.fase22{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    width: 600px;
+    height: 600px;
+}
+
+.fase23{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    width: 600px;
+    height: 600px;
+}
+
+.fase24{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    width: 600px;
+    height: 600px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    background-color: rgb(6, 199, 247);
+    font-size: large;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(247, 243, 6);;
+}
